@@ -1,0 +1,16 @@
+this command for localhost deployment 
+
+through phpmyadmin
+
+sudo apt update
+sudo apt install apache2 -y
+sudo apt install mysql-server -y
+sudo apt install php
+sudo apt install phpmyadmin
+sudo apt install php libapache2-mod-php php-mysql -y
+
+CREATE DATABASE your_database;
+CREATE USER 'your_user'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON your_database.* TO 'your_user'@'localhost';
+FLUSH PRIVILEGES;
+
