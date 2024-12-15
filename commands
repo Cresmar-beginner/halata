@@ -14,3 +14,15 @@ CREATE USER 'your_user'@'localhost' IDENTIFIED BY 'your_password';
 GRANT ALL PRIVILEGES ON your_database.* TO 'your_user'@'localhost';
 FLUSH PRIVILEGES;
 
+data base name
+appointment_scheduler
+
+table name 
+appointments
+
+tables
+id      - auto int
+name 
+email
+data
+time 
