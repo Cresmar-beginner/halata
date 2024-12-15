@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #00adb5; /* Light teal for headings */
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #02cfc9;
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+form input::placeholder {
+    color: #aaaaaa; /* Placeholder text color */
+}
+
+form button {
+    background-color: #00adb5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #02cfc9; /* Lighter teal on hover */
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+table th, table td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+table th {
+    background-color: #00adb5;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #2b2b2b; /* Highlight row on hover */
+}
+
+/* Buttons in Table */
+table a {
+    color: #ff6b6b; /* Red for delete links */
+}
+
+table a:hover {
+    color: #ff3f3f;
+    text-decoration: underline;
+}
+
+/* Additional Styling */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #777777;
+    font-size: 14px;
+}
